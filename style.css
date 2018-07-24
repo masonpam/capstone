@@ -5,7 +5,7 @@
  */
 body {
   font-family: 'Lora';
-  background: url("../img/lavendar.jpg");
+  background: url("img/lavendar.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -228,11 +228,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #e6a756;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #e6a756;
 }
 
 .btn {
@@ -250,5 +250,5 @@ p {
 }
 
 .font-weight-light {
-  font-weight: 100 !important;
+  font-weight: 100;
 }
