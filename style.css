@@ -34,6 +34,7 @@ p {
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
+  color: #fff;
 }
 
 .site-heading .site-heading-upper {
@@ -142,9 +143,9 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
+  padding-top: 75rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: #c6ecc6;
 }
 
 .cta .cta-inner {
