@@ -74,9 +74,13 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+.li {
+  display: none;
+}
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #ffd699;
   font-family: 'Raleway';
+  display: inline;
 }
 
 #mainNav .navbar-brand {
@@ -143,7 +147,7 @@ p {
 }
 
 .cta {
-  padding-top: 75rem;
+  padding-top: 65rem;
   padding-bottom: 5rem;
   background-color: #c6ecc6;
 }
@@ -226,7 +230,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #ffd699;
 }
 
 .text-primary {
