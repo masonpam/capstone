@@ -78,7 +78,7 @@ p {
   list-style-type: none;
 }
 #mainNav {
-  background-color: #ffd480;
+  background-color: #003300;
   font-family: 'Raleway';
   display: block;
 }
@@ -99,6 +99,7 @@ p {
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
+    display: block;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
