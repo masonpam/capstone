@@ -75,12 +75,13 @@ p {
 }
 
 .li {
-  display: none;
+  list-style-type: none;
 }
 #mainNav {
-  background-color: #ffd699;
+  background-color: #ffd480;
   font-family: 'Raleway';
-  display: inline;
+  font-color: #000000;
+  display: block;
 }
 
 #mainNav .navbar-brand {
