@@ -83,6 +83,10 @@ p {
   display: block;
 }
 
+  #mainNav .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+
 #mainNav .navbar-brand {
   color: #e6a756;
 }
@@ -107,9 +111,6 @@ p {
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
   }
-  #mainNav .navbar-expand-lg .navbar-nav {
-    -ms-flex-direction: row;
-}
 
 .btn-xl {
   font-weight: 700;
