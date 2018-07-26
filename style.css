@@ -87,10 +87,6 @@ p {
   font-family: 'Raleway';
 }
 
-#mainNav .navbar-expand-lg {
-    flex-direction: row;
-}
-
 #mainNav .navbar-brand {
   color: #e6a756;
 }
@@ -98,6 +94,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
+  display: row;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
