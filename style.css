@@ -80,11 +80,7 @@ p {
 #mainNav {
   background-color: #003300;
   font-family: 'Raleway';
-  display: block;
-}
-
-  #mainNav .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 #mainNav .navbar-brand {
