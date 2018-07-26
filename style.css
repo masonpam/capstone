@@ -80,7 +80,10 @@ p {
 #mainNav {
   background-color: #003300;
   font-family: 'Raleway';
-  flex-direction: row;
+}
+
+  #mainNav .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
 }
 
 #mainNav .navbar-brand {
@@ -127,7 +130,7 @@ p {
     float: right;
   }
   .intro .intro-text {
-    left: 0;
+    left: .2%;
     width: 60%;
     margin-top: 3rem;
     position: absolute;
@@ -174,7 +177,7 @@ p {
   .about-heading .about-heading-img {
     position: relative;
     z-index: 0;
-    height: 650px;
+    height: 550px;
   }
   .about-heading .about-heading-content {
     margin-top: -5rem;
