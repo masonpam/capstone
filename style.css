@@ -55,8 +55,7 @@ p {
 }
 
 #recipe-container {
-  padding-top: 50rem;
-  padding-bottom: 15rem;
+  padding-top: 15rem;
   
 }
 
@@ -156,9 +155,8 @@ p {
 }
 
 .cta {
-  padding-top: 65rem;
+  padding-top: 18rem;
   padding-bottom: 5rem;
-  background-color: #c6ecc6;
 }
 
 .cta .cta-inner {
@@ -183,7 +181,7 @@ p {
   .about-heading .about-heading-img {
     position: relative;
     z-index: 0;
-    height: 550px;
+    height: 500px;
   }
   .about-heading .about-heading-content {
     margin-top: -5rem;
