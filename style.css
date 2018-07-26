@@ -83,7 +83,7 @@ p {
   list-style-type: none;
 }
 #mainNav {
-  background-color: #003300;
+  background-color: #8cd98c;
   font-family: 'Raleway';
 }
 
@@ -217,11 +217,6 @@ p {
   font-style: italic;
 }
 
-.list-recipe .list-recipe-item.today {
-  font-weight: bold;
-  color: #e6a756;
-}
-
 @media (min-width: 992px) {
   .list-recipe {
     width: 50%;
@@ -234,7 +229,7 @@ p {
 }
 
 .footer {
-  background-color: #003300;
+  background-color: #8cd98c;
 }
 
 .text-primary {
