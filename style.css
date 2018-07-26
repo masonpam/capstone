@@ -83,7 +83,7 @@ p {
   list-style-type: none;
 }
 #mainNav {
-  background-color: #8cd98c;
+  background-color: #9494b8;
   font-family: 'Raleway';
 }
 
@@ -107,11 +107,9 @@ p {
     display: block;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: #003300;
   }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
-  }
+ 
 
 .btn-xl {
   font-weight: 700;
@@ -229,7 +227,7 @@ p {
 }
 
 .footer {
-  background-color: #8cd98c;
+  background-color: #9494b8;
 }
 
 .text-primary {
