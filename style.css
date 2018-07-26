@@ -54,6 +54,12 @@ p {
   margin-bottom: 5rem;
 }
 
+.recipe-container {
+  padding-top: 35rem;
+  padding-bottom: 15rem;
+  
+}
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -82,7 +88,7 @@ p {
   font-family: 'Raleway';
 }
 
-  #mainNav .navbar-expand-lg .navbar-nav {
+#mainNav .navbar-expand-lg {
     flex-direction: row;
 }
 
