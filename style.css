@@ -85,6 +85,7 @@ p {
 #mainNav {
   background-color: #9494b8;
   font-family: 'Raleway';
+  opacity: 0.9;
 }
 
 #mainNav .navbar-brand {
@@ -94,7 +95,6 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
-  display: row;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
@@ -109,7 +109,6 @@ p {
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #003300;
   }
- 
 
 .btn-xl {
   font-weight: 700;
