@@ -33,7 +33,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Pacifico';
 }
 
 .site-heading .site-heading-upper {
@@ -146,15 +146,11 @@ p {
   }
 }
 
-#recipe-container {
- padding-bottom: 35rem;
- 
-}
 
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #66ffc2;
+  background-color: #b3ffd9;
 }
 
 .cta .cta-inner {
@@ -237,7 +233,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #66ffc2 !important;
+  background-color: #b3ffd9 !important;
 }
 
 .btn {
@@ -245,13 +241,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #66ffc2;
-  border-color: #66ffc2;
+  background-color: #b3ffd9;
+  border-color: #b3ffd9;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color:  #00cc7a;
-  border-color:  #00cc7a;
+  background-color:  #80ffbf;
+  border-color:  #80ffbf;
 }
 
 .font-weight-light {
