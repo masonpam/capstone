@@ -73,6 +73,11 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+#recipe-container {
+  padding-top: 15rem;
+  
+}
+
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
   font-family: 'Raleway';
@@ -141,6 +146,11 @@ p {
   }
 }
 
+#recipe-container {
+ padding-bottom: 35rem;
+ 
+}
+
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -196,30 +206,25 @@ p {
   }
 }
 
-.list-hours {
+.list-recipe {
   font-size: 0.9rem;
 }
 
-.list-hours .list-hours-item {
+.list-recipe .list-recipe-item {
   border-bottom: 1px solid rgba(230, 167, 86, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
 }
 
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #e6a756;
-}
-
 @media (min-width: 992px) {
-  .list-hours {
+  .list-recipe {
     width: 50%;
     font-size: 1.1rem;
   }
 }
 
-.address strong {
+.instruction strong {
   font-size: 1.2rem;
 }
 
