@@ -31,7 +31,7 @@ p {
 .site-heading {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  text-transform: italic;
+  text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
 }
@@ -71,11 +71,6 @@ p {
 
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
-}
-
-#recipe-container {
-  padding-top: 15rem;
-  
 }
 
 #mainNav {
@@ -150,7 +145,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #b3ffd9;
+  background-color: #00994d;
 }
 
 .cta .cta-inner {
@@ -233,7 +228,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #b3ffd9 !important;
+  background-color: #00994d !important;
 }
 
 .btn {
@@ -241,13 +236,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #b3ffd9;
-  border-color: #b3ffd9;
+  background-color: #00994d;
+  border-color: #00994d;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color:  #80ffbf;
-  border-color:  #80ffbf;
+  background-color:  #008040;
+  border-color:  #008040;
 }
 
 .font-weight-light {
