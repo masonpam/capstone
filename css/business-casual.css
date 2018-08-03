@@ -3,6 +3,7 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
+
 body {
   font-family: 'Lora';
   background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/lavendar.jpg");
@@ -33,13 +34,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
-}
-
-.site-heading .site-heading-upper {
-  display: block;
-  font-size: 2rem;
-  font-weight: 800;
+  font-family: 'Merienda';
 }
 
 .site-heading .site-heading-lower {
@@ -218,9 +213,9 @@ p {
   font-size: 1.2rem;
 }
 
- #map {
-   height: 100%;
- }
+#map {
+  height: 100%;
+}
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
@@ -243,9 +238,11 @@ p {
   border-color: #00994d;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color:  #008040;
-  border-color:  #008040;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #008040;
+  border-color: #008040;
 }
 
 .font-weight-light {
