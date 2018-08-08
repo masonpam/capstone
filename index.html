@@ -47,22 +47,25 @@
     <span class="site-heading-lower">Knife and Note</span>
   </h1>
 
-  <button onclick="typeWriter() text-white">
-  <span class="glyphicon glyphicon-refresh"></span>Click here</button>
-  <p id="description"></p>
-  <script>
-    var i = 0;
-    var txt = 'A place to share my ideas with you.'; /* The text */
-    var speed = 60; /* The speed/duration of the effect in milliseconds */
+ <h1>A collection of recipes and thoughts</h1>
 
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("description").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-  </script>
+<button onclick="typeWriter()">Click me</button>
+
+<p id="description"></p>
+
+<script>
+var i = 0;
+var txt = 'Recipes.  Sustainable practices.  Creative writing.';
+var speed = 60;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("description").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
   
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
