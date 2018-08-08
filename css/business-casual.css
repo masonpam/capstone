@@ -43,7 +43,7 @@ p {
   line-height: 4rem;
 }
 
-#typewrite {
+.typewrite {
   text-align: center;
   color:#fff;
   padding-top:10em;
