@@ -43,8 +43,12 @@ p {
   line-height: 4rem;
 }
 
-#description {
-  color: #ffffff;
+#typewrite {
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  text-decoration: none;
+
 }
 
 .page-section {

@@ -46,26 +46,13 @@
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-lower">Knife and Note</span>
   </h1>
+  
+<h1>
+  <a href="typewriter.js" class="typewrite" data-period="2000" data-type='[ "Recipes.", "Sustainable practices.", "Creative writing." ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
 
- <h1>A collection of recipes and thoughts</h1>
-
-<button onclick="typeWriter()">Click me</button>
-
-<p id="description"></p>
-
-<script>
-var i = 0;
-var txt = 'Recipes.  Sustainable practices.  Creative writing.';
-var speed = 60;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("description").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-</script>
   
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
