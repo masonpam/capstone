@@ -221,12 +221,9 @@ p {
   font-size: 1.2rem;
 }
 
-#more-recipes {
-  position: fixed;
-  z-index: 1;
-  margin-top: -3rem;
-  max-width: 50vw;
-  float: right;
+.aside {
+  position: relative;
+  color: #ffffff;
 }
 
 #map {
