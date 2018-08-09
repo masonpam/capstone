@@ -222,8 +222,9 @@ p {
 }
 
 .aside {
-  position: relative;
+  position: fixed;
   color: #ffffff;
+  float: right;
 }
 
 #map {
