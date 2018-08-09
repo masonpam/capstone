@@ -46,10 +46,9 @@ p {
 
 .typewrite {
   text-align: center;
-  color:#fff;
+  color: #fff;
   padding-top: 0em;
   text-decoration: none;
-
 }
 
 .page-section {
@@ -220,6 +219,13 @@ p {
 
 .instruction strong {
   font-size: 1.2rem;
+}
+
+.aside {
+  position: fixed;
+  z-index: 1;
+  margin-top: -3rem;
+  max-width: 50vw;
 }
 
 #map {
