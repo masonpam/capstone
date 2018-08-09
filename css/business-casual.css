@@ -222,6 +222,7 @@ p {
 }
 
 .aside {
+  padding-top: 2rem;
   position: fixed;
   color: #ffffff;
   float: right;
