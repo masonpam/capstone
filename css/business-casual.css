@@ -102,7 +102,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #00994d;
+    color: rgba(255, 255, 255, 0.4);
   }
 }
 
