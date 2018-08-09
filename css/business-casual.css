@@ -227,6 +227,9 @@ p {
   color: #ffffff;
   float: right;
 }
+.aside a {
+  color: #ffffff;
+}
 
 #map {
   height: 100%;
