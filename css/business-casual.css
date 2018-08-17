@@ -233,10 +233,9 @@ p {
 }
 
 #map {
-  height: 100%;
-  width= 600px;
-  height= 450px;
-  frameborder= 0px;
+  width: 600px;
+  height: 450px;
+  frameborder: 0px;
   border: 0px;
 }
 
