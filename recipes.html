@@ -52,7 +52,13 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
- 
+  <style>
+      #map {
+       height: 75%;
+       padding-left: 5px;
+       padding-right: 5px;
+      }
+    </style>
 </head>
 
 <body>
@@ -171,13 +177,6 @@
 
  <div id="map"></div>
     <span class="section-heading-lower text-white">See where Agave comes from</span>
-    <style>
-      #map {
-       height: 75%;
-       padding-left: 5px;
-       padding-right: 5px;
-      }
-    </style>
     <script>
       var map;
       function initMap() {
