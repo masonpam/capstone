@@ -231,6 +231,9 @@ p {
 .aside a {
   color: #ffffff;
 }
+#map {
+  margin: 0, 250px;
+}
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
