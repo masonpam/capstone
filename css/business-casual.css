@@ -231,7 +231,7 @@ p {
 .aside a {
   color: #ffffff;
 }
-#map, html, body{
+#map {
   margin: 0 250px;
   height: 75%;
 }
