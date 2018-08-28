@@ -52,7 +52,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  
+
 </head>
 
 <body>
@@ -169,16 +169,19 @@
     </div>
   </section>
 
-    <!--Google maps code-->
-  <h2>
- <span class="section-heading-lower text-white">See where Agave comes from</span>
-      </h2>
+  <!--Google maps code-->
+  <div class="container">
+    <h2 class="section-heading-mb-5">
+      <span class="section-heading-lower text-center text-white">See where Agave comes from</span>
+    </h2>
     <div id="map"></div>
     <style>
       #map {
-       height: 100%;
+        height: 100%;
       }
-       html, body {
+
+      html,
+      body {
         height: 75%;
         padding-left: 1px;
         padding-right: 1px;
@@ -186,26 +189,29 @@
     </style>
     <script>
       var map;
+
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 19.432608, lng: -99.133209},
+          center: {
+            lat: 19.432608,
+            lng: -99.133209
+          },
           zoom: 8
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS6ibHd8XxmGfTeMvRTgWIbbWI5YeiCgo&callback=initMap"
-    async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS6ibHd8XxmGfTeMvRTgWIbbWI5YeiCgo&callback=initMap" async defer></script>
+  </div>
 
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; Knife and Note 2018</p>
+    </div>
+  </footer>
 
-    <footer class="footer text-faded text-center py-5">
-      <div class="container">
-        <p class="m-0 small">Copyright &copy; Knife and Note 2018</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
