@@ -232,7 +232,8 @@ p {
   color: #ffffff;
 }
 #map {
-  margin: 0, 250px;
+  margin: 0 250px;
+  height: 75%;
 }
 
 .footer {
